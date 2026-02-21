@@ -1,73 +1,168 @@
- # 🟢 Awolia School Management System (ASMS)
- A modern web-based school management system built with Next.js and MongoDB to manage students, teachers, attendance, grades, and school administration workflows.
-<div align="center">
-🏫 Modern Digital School Management Platform
+```markdown
+# 🟢 Awolia School Management System
 
-Built with Next.js + MongoDB
+<div align="center">
+
+### 🏫 Modern Digital School Management Platform  
+Built with Next.js & MongoDB  
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Active-2ea44f)
+![Version](https://img.shields.io/badge/Version-1.0.0-2ea44f)
+![License](https://img.shields.io/badge/License-MIT-2ea44f)
+![Built With](https://img.shields.io/badge/Built%20With-Next.js-2ea44f)
 
 </div>
-🟢 Project Overview
 
-Awolia School Management System (ASMS) is a scalable web-based platform designed to digitize school operations including student management, attendance, grading, and finance tracking.
+---
 
-🟢 Tech Stack
+## 🟢 Overview
 
-⚛ Next.js
+**Awolia School Management System** is a modern, scalable, web-based platform designed to digitize and streamline school operations.
 
-🍃 MongoDB
+The system centralizes:
 
-🗄 Optional: MySQL
+- Student Management  
+- Teacher Administration  
+- Attendance Tracking  
+- Academic Performance Monitoring  
+- Finance & Fee Management  
 
-🎨 Tailwind CSS
+It provides secure, role-based dashboards for administrators, teachers, and students while ensuring maintainability and performance.
 
-🔐 JWT Authentication
+---
 
-🟢 Features
+## 🟢 Technology Stack
 
-✅ Role-Based Authentication
+- ⚛ Next.js  
+- 🍃 MongoDB  
+- 🗄 Optional: MySQL  
+- 🎨 Tailwind CSS  
+- 🔐 JWT Authentication  
 
-✅ Student Registration System
+---
 
-✅ Attendance Management
+## 🟢 Core Features
 
-✅ Grade Tracking
+✔ Role-Based Authentication (Admin / Teacher / Student)  
+✔ Student Registration & Profile Management  
+✔ Attendance Tracking System  
+✔ Grade & Academic Performance Management  
+✔ Teacher Dashboard  
+✔ Administrative Analytics Panel  
+✔ Finance & Fee Tracking Module  
 
-✅ Teacher Dashboard
+---
 
-✅ Admin Analytics Panel
+## 🟢 System Architecture
 
-✅ Finance & Fee Tracking
-
-🟢 System Architecture
+```
 Client (Next.js Frontend)
         ↓
 API Routes (Backend Logic)
         ↓
 MongoDB Database
-🟢 Installation
-git clone https://github.com/your-username/asms.git
-cd asms
+```
+
+Architecture Layers:
+
+1. Presentation Layer (Frontend UI)
+2. Application Layer (Business Logic & APIs)
+3. Data Layer (Database)
+
+---
+
+## 🟢 Installation Guide
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Awolia-School-Management-System.git
+cd Awolia-School-Management-System
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
-🟢 Folder Structure
-/asms
- ├── /app
- ├── /components
- ├── /lib
- ├── /models
- ├── /pages/api
- ├── /styles
- └── package.json
-🟢 Environment Variables
+```
+
+Application runs at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🟢 Project Structure
+
+```
+Awolia-School-Management-System
+│
+├── app
+├── components
+├── lib
+├── models
+├── pages/api
+├── styles
+├── package.json
+└── README.md
+```
+
+---
+
+## 🟢 Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```
 MONGODB_URI=
 JWT_SECRET=
 NEXT_PUBLIC_API_URL=
-🟢 Future Improvements
+```
 
-📱 Mobile version
+⚠ Never commit your `.env` file to GitHub.
 
-📊 Advanced analytics
+---
 
-🔔 SMS notifications
+## 🟢 Security Features
 
-🧠 AI-powered performance insights
+- Password Hashing  
+- JWT-Based Authentication  
+- Role-Based Access Control  
+- Protected API Routes  
+- Secure Environment Configuration  
+
+---
+
+## 🟢 Future Improvements
+
+- 📱 Mobile Application Version  
+- 📊 Advanced Academic Analytics  
+- 🔔 SMS Notification Integration  
+- 🧠 AI-Based Student Performance Insights  
+- 📄 Exportable Reports (PDF / Excel)  
+
+---
+
+## 🟢 Author
+
+Developed by **Dina Seid**  
+Awolia School Management System Project  
+
+---
+
+<div align="center">
+
+### 🟢 Empowering Education Through Technology
+
+</div>
+```
