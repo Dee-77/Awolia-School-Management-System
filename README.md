@@ -154,8 +154,7 @@ NEXT_PUBLIC_API_URL=
 ---
 
 ## 🟢 Author
-
-Developed by **Dina Seid**  
+ 
 Awolia School Management System Project  
 
 ---
