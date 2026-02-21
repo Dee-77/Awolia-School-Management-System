@@ -1,55 +1,55 @@
-# Awolia-School-Management-System
-A modern web-based school management system built with Next.js and MongoDB to manage students, teachers, attendance, grades, and school administration workflows.
+ # 🟢 Awolia School Management System (ASMS)
+ A modern web-based school management system built with Next.js and MongoDB to manage students, teachers, attendance, grades, and school administration workflows.
 <div align="center">
-# Modern Digital School Management Platform
+🏫 Modern Digital School Management Platform
 
 Built with Next.js + MongoDB
 
 </div>
-# Project Overview
+🟢 Project Overview
 
 Awolia School Management System (ASMS) is a scalable web-based platform designed to digitize school operations including student management, attendance, grading, and finance tracking.
 
-# Tech Stack
+🟢 Tech Stack
 
-# Next.js
+⚛ Next.js
 
-# MongoDB
+🍃 MongoDB
 
-# Optional: MySQL
+🗄 Optional: MySQL
 
-# Tailwind CSS
+🎨 Tailwind CSS
 
-# JWT Authentication
+🔐 JWT Authentication
 
-# Features
+🟢 Features
 
-# Role-Based Authentication
+✅ Role-Based Authentication
 
-# Student Registration System
+✅ Student Registration System
 
-# Attendance Management
+✅ Attendance Management
 
-# Grade Tracking
+✅ Grade Tracking
 
-# Teacher Dashboard
+✅ Teacher Dashboard
 
-# Admin Analytics Panel
+✅ Admin Analytics Panel
 
-# Finance & Fee Tracking
+✅ Finance & Fee Tracking
 
-# System Architecture
+🟢 System Architecture
 Client (Next.js Frontend)
         ↓
 API Routes (Backend Logic)
         ↓
 MongoDB Database
-# Installation
+🟢 Installation
 git clone https://github.com/your-username/asms.git
 cd asms
 npm install
 npm run dev
-# Folder Structure
+🟢 Folder Structure
 /asms
  ├── /app
  ├── /components
@@ -58,16 +58,16 @@ npm run dev
  ├── /pages/api
  ├── /styles
  └── package.json
-# Environment Variables
+🟢 Environment Variables
 MONGODB_URI=
 JWT_SECRET=
 NEXT_PUBLIC_API_URL=
-# Future Improvements
+🟢 Future Improvements
 
-# Mobile version
+📱 Mobile version
 
-# Advanced analytics
+📊 Advanced analytics
 
-# SMS notifications
+🔔 SMS notifications
 
-# AI-powered performance insights
+🧠 AI-powered performance insights
