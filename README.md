@@ -1,66 +1,33 @@
-#🟢 Awolia School Management System
-<div align="center">
+Awolia School Management System
+Project Title
 
-🏫 Modern Digital School Management Platform
-Built with Next.js & MongoDB
+Awolia School Management System – Modern Digital School Management Platform
 
-</div>
-🟢 Overview
+Simple Overview
 
-Awolia School Management System is a modern, scalable, web-based platform designed to digitize and streamline school operations.
+A web-based platform designed to digitize and streamline school operations, providing role-based dashboards for administrators, teachers, and students.
 
-The system centralizes:
+Description
 
-Student Management
+Awolia School Management System is a scalable and modern solution built with Next.js and MongoDB, aimed at simplifying school management.
+It centralizes student management, teacher administration, attendance tracking, academic performance monitoring, and finance/fee management. The system ensures security, maintainability, and efficient performance for educational institutions.
 
-Teacher Administration
+Getting Started
+Dependencies
 
-Attendance Tracking
+Node.js (v18+)
 
-Academic Performance Monitoring
+npm
 
-Finance & Fee Management
+MongoDB (Optional: MySQL)
 
-It provides secure, role-based dashboards for administrators, teachers, and students while ensuring maintainability and performance.
+Tailwind CSS
 
-🟢 Technology Stack
+JWT Authentication
 
-⚛ Next.js
+OS: Windows 10 / Linux / macOS
 
-🍃 MongoDB (Optional: MySQL)
-
-🎨 Tailwind CSS
-
-🔐 JWT Authentication
-
-🟢 Core Features
-
-✅ Role-Based Authentication (Admin / Teacher / Student)
-✅ Student Registration & Profile Management
-✅ Attendance Tracking System
-✅ Grade & Academic Performance Management
-✅ Teacher Dashboard
-✅ Administrative Analytics Panel
-✅ Finance & Fee Tracking Module
-
-🟢 System Architecture
-Client (Next.js Frontend)
-
-        ↓
-API Routes (Backend Logic)
-
-        
-MongoDB Database
-
-Architecture Layers:
-
-Presentation Layer – Frontend UI
-
-Application Layer – Business Logic & APIs
-
-Data Layer – Database
-
-🟢 Installation Guide
+Installing
 
 Clone the repository:
 
@@ -71,72 +38,71 @@ Install dependencies:
 
 npm install
 
-Run the development server:
-
-npm run dev
-
-Open your browser:
-
-http://localhost:3000
-
-🟢 Project Structure
-
-Awolia-School-Management-System
-
-│
-
-├── app
-
-├── components
-
-├── lib
-
-├── models
-
-├── pages/api
-
-├── styles
-
-├── package.json
-
-└── README.md
-
-🟢 Environment Variables
-
-Create a .env.local file in the root directory:
+Create environment file .env.local in the root directory:
 
 MONGODB_URI=
 JWT_SECRET=
 NEXT_PUBLIC_API_URL=
 
- Never commit your .env file to GitHub.
+⚠ Do not commit your .env file to GitHub.
 
-🟢 Security Features
+Executing Program
 
-Password Hashing
+Start the development server:
 
-JWT-Based Authentication
+npm run dev
 
-Role-Based Access Control
+Open your browser and navigate to:
 
-Protected API Routes
+http://localhost:3000
 
-Secure Environment Configuration
+Log in using role-based credentials (Admin / Teacher / Student).
 
-🟢 Future Improvements
+Help
 
-📱 Mobile Application Version
+Ensure MongoDB is running before starting the server.
 
-📊 Advanced Academic Analytics
+If authentication fails, verify JWT_SECRET and database connection.
 
-🔔 SMS Notification Integration
+For common Next.js issues, run:
 
-🧠 AI-Based Student Performance Insights
+npm run build
+npm start
+Authors
 
-📄 Exportable Reports (PDF / Excel)
+Awolia School Management System Team
 
-🟢 Author
+Contact: awolia@example.com
 
-Awolia School Management System Project
+Version History
 
-<div align="center"> 🟢 **Empowering Education Through Technology** </div>
+0.2
+
+Bug fixes in authentication and dashboard routing
+
+Performance optimizations in database queries
+
+0.1
+
+Initial Release
+
+License
+
+This project is licensed under the MIT License – see the LICENSE.md
+ file for details.
+
+Acknowledgments
+
+Inspiration from modern school management platforms
+
+Code snippets from:
+
+awesome-readme
+
+PurpleBooth
+
+dbader
+
+zenorocha
+
+fvcproductions
