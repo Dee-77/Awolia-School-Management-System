@@ -1,24 +1,15 @@
 #🟢 Awolia School Management System
 <div align="center">
+
 🏫 Modern Digital School Management Platform
-
 Built with Next.js & MongoDB
-
-<br/>
-
-
-
-
-
-
-
 
 </div>
 🟢 Overview
 
 Awolia School Management System is a modern, scalable, web-based platform designed to digitize and streamline school operations.
 
-  ##The system centralizes:
+The system centralizes:
 
 Student Management
 
@@ -36,9 +27,7 @@ It provides secure, role-based dashboards for administrators, teachers, and stud
 
 ⚛ Next.js
 
-🍃 MongoDB
-
- Optional: MySQL
+🍃 MongoDB (Optional: MySQL)
 
 🎨 Tailwind CSS
 
@@ -47,38 +36,29 @@ It provides secure, role-based dashboards for administrators, teachers, and stud
 🟢 Core Features
 
 ✅ Role-Based Authentication (Admin / Teacher / Student)
-
 ✅ Student Registration & Profile Management
-
 ✅ Attendance Tracking System
-
 ✅ Grade & Academic Performance Management
-
 ✅ Teacher Dashboard
-
 ✅ Administrative Analytics Panel
-
 ✅ Finance & Fee Tracking Module
 
 🟢 System Architecture
-
 Client (Next.js Frontend)
 
-    ↓
-    
+        ↓
 API Routes (Backend Logic)
 
-    ↓
-    
+        
 MongoDB Database
 
 Architecture Layers:
 
-Presentation Layer (Frontend UI)
+Presentation Layer – Frontend UI
 
-Application Layer (Business Logic & APIs)
+Application Layer – Business Logic & APIs
 
-Data Layer (Database)
+Data Layer – Database
 
 🟢 Installation Guide
 
@@ -98,8 +78,11 @@ npm run dev
 Open your browser:
 
 http://localhost:3000
+
 🟢 Project Structure
+
 Awolia-School-Management-System
+
 │
 
 ├── app
@@ -126,7 +109,7 @@ MONGODB_URI=
 JWT_SECRET=
 NEXT_PUBLIC_API_URL=
 
-⚠ Never commit your .env file to GitHub.
+ Never commit your .env file to GitHub.
 
 🟢 Security Features
 
@@ -154,9 +137,6 @@ Secure Environment Configuration
 
 🟢 Author
 
-Developed by Dina Seid
 Awolia School Management System Project
 
-<div align="center">
-🟢 Empowering Education Through Technology
-</div>
+<div align="center"> 🟢 **Empowering Education Through Technology** </div>
