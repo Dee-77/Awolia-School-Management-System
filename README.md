@@ -1,4 +1,4 @@
-Awolia School Management System
+# Awolia School Management System
 Project Title
 
 Awolia School Management System – Modern Digital School Management Platform
@@ -91,18 +91,6 @@ License
 This project is licensed under the MIT License – see the LICENSE.md
  file for details.
 
-Acknowledgments
+ 
 
-Inspiration from modern school management platforms
-
-Code snippets from:
-
-awesome-readme
-
-PurpleBooth
-
-dbader
-
-zenorocha
-
-fvcproductions
+ 
