@@ -86,7 +86,7 @@ Performance optimizations in database queries
 
 Initial Release
 
-License
+## License
 
 This project is licensed under the MIT License – see the LICENSE.md
  file for details.
